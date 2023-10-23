@@ -1,0 +1,43 @@
+header {
+    background-color: #15304a;
+    height: 50px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+header h2 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+header .nav a {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+header .nav a:hover {
+    color:bisque;
+}
+
+.loginBtn {
+    color: White;
+    background-color: rgb(245, 158, 11);
+    padding-top: 0.25rem;
+    padding-bottom: 0.4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgba(245, 158, 11);
+    border-radius: 0.25rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+  

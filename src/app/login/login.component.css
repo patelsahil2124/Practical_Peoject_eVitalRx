@@ -1,0 +1,29 @@
+.container {
+    height: calc(100% - 50px - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2B62A0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .box mat-form-field {
+  margin-bottom: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

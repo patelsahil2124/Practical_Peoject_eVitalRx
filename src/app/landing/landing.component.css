@@ -1,0 +1,23 @@
+.container {
+    height: calc(100% - 100px - 50px);
+    display: flex;
+}
+
+.container img {
+    width: 50%;
+    padding: 10px;
+}
+
+.container .info {
+    width: 50%;
+    text-align: center;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textLeft {
+    text-align: left;
+}
